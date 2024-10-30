@@ -1,0 +1,22 @@
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+label, input, textarea, button {
+    margin-bottom: 1em;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--green);
+}

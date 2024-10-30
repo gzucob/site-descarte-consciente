@@ -1,0 +1,6 @@
+footer {
+    text-align: center;
+    padding: 1em;
+    background: var(--light-grey); /* Ajuste conforme necessário */
+    color: white;
+}

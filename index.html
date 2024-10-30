@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descarte Exames de Imagem</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Menu -->
+    <header id="header">
+        <nav class="navbar">
+            <div class="navbar-logo">
+                <a href="#" onclick="location.reload(true); return false;">
+                    <h3>Descarte Consciente</h3>
+                </a>
+            </div>
+            <div class="navbar-toggle" onclick="toggleMenu()">
+                <i class="bi bi-list"></i>
+            </div>
+            <div class="navbar-links">
+                <a href="#home" onclick="closeMenu()">Home</a>
+                <a href="#about" onclick="closeMenu()">Quem Somos</a>
+                <a href="#contact" onclick="closeMenu()">Contato</a>
+            </div>
+        </nav>
+        <div class="overlay" id="overlay" onclick="closeMenu()"></div>
+    </header>
+
+    <main>
+        <!-- About -->
+        <section id="about">
+            <h1>Por que é Importante o Descarte Correto?</h1>
+            <p>Exames de imagem, como radiografias, contêm metais pesados e substâncias tóxicas. Quando descartados de
+                maneira inadequada, eles representam riscos ao meio ambiente e à saúde pública, podendo contaminar o
+                solo e o lençol freático se queimados ou despejados em locais incorretos.</p>
+            <p>Esse tipo de resíduo não deve ser jogado no lixo seletivo comum. Em Caxias do Sul, a CODECA realiza a
+                coleta adequada desses materiais, utilizando processos seguros e especializados para evitar contaminação
+                ambiental.</p>
+        </section>
+
+        <!-- Location -->
+        <section id="location">
+            <h2>Onde Descartar?</h2>
+            <p>Atualmente, a CODECA é o principal ponto de coleta desses materiais em Caxias do Sul.</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13940.867915833778!2d-51.1831617!3d-29.1287899!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951ea2456077e477%3A0x7861730411d007de!2sCODECA%20-%20Companhia%20de%20Desenvolvimento%20de%20Caxias%20do%20Sul!5e0!3m2!1spt-BR!2sbr!4v1730233231932!5m2!1spt-BR!2sbr"
+                width="100%" height="450" style="border:0;" allowfullscreen loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p><strong>Endereço:</strong> R. João Nichelle, 1111 - Nossa Sra. de Lourdes, Caxias do Sul - RS</p>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <h2>Contate-nos</h2>
+            <p>Para mais informações sobre o descarte correto ou se você representa uma empresa interessada em
+                colaborar, entre em contato conosco!</p>
+            <form id="contactForm">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Educação no Descarte de Exames de Imagem. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="main.js" defer></script>
+</body>
+
+</html>
