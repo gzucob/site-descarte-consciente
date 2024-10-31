@@ -6,15 +6,15 @@
 @import url(styles/footer.css);
 
 :root {
-	--background: #FFFFFF;
-	--white: #FFFFFF;
+	--background: #F8FAFB;
 	--font: "Raleway";
-	--blue: #002F52;
-	--grey: #474646;
-	--light-grey: #858585;
+	--white: #FFFFFF;
+	--blue: #8CB6C9;
+	--light-blue: #B3D9E8;
+	--grey: #CDD3D8;
+	--light-grey: #E3E8ED;
 	--black: #000000;
-	--red: #FF0000;
-    --green: #3cb371;
+
 }
 
 html {

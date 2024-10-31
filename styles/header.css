@@ -16,7 +16,7 @@
 }
 
 .navbar-logo a {
-    color: var(--white); /* Ajuste conforme necessário */
+    color: var(--blue); /* Ajuste conforme necessário */
     text-decoration: none;
     font-size: 1rem;
     font-weight: bold;
@@ -29,6 +29,8 @@
 .navbar-links.show {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
     position: absolute;
     top: 8vh;
     right: 0;
@@ -37,17 +39,18 @@
     background-color: var(--light-grey);
     z-index: 999;
     padding-top: 20px;
+    gap: .5rem;
 }
 
 .navbar-links a {
-    color: var(--white); /* Ajuste conforme necessário */
+    color: var(--blue); /* Ajuste conforme necessário */
     text-decoration: none;
     font-size: 1rem;
     font-weight: bold;
 }
 
 .navbar-links a:hover {
-    color: var(--blue); /* Ajuste conforme necessário */
+    color: var(--light-blue); /* Ajuste conforme necessário */
 }
 
 .navbar-toggle {
