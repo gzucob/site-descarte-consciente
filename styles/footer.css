@@ -1,6 +1,10 @@
 footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding: 1em;
+    height: 8vh;
     background: var(--light-grey); /* Ajuste conforme necessário */
-    color: white;
+    color: var(--blue);
+    font-weight: bold;
 }
