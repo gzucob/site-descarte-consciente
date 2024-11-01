@@ -1,0 +1,28 @@
+#location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background);
+    padding-top: 50px;
+}
+
+#location h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#location p {
+    padding-top: 15px;
+    color: var(--black);
+    font-size: 1rem;
+    text-align: center;
+}
+
+.maps-codeca {
+    padding-top: 15px;
+}
+
+.local-codeca {
+    padding: 10px;
+}
