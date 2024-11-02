@@ -4,7 +4,8 @@
     justify-content: center;
     align-items: center;
     background-color: var(--background);
-    padding-top: 50px;
+    padding-top: 40px;
+    padding: 10px;
 }
 
 #location h2 {
@@ -14,15 +15,32 @@
 
 #location p {
     padding-top: 15px;
+    padding-bottom: 15px;
     color: var(--black);
-    font-size: 1rem;
-    text-align: center;
+    font-size: 1.2rem;
+    text-align: left;
 }
 
 .maps-codeca {
-    padding-top: 15px;
+    width: 90%;
+    height: 30vh;
+    border-radius: 10px;
 }
 
 .local-codeca {
-    padding: 10px;
+    padding-top: 10px;
+}
+
+@media (min-width: 768px) {
+    .maps-codeca {
+        width: 90%;
+        height: 30vh;
+    }
+}
+
+@media (min-width: 1024px) {
+    .maps-codeca {
+        width: 60%;
+        height: 60vh;
+    }
 }
