@@ -1,10 +1,19 @@
 footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     height: 8vh;
-    background: var(--light-grey); /* Ajuste conforme necessário */
-    color: var(--blue);
+    background: var(--light-grey);
     font-weight: bold;
+}
+
+.development a {
+    text-decoration: none;
+    color: var(--blue);
+}
+
+.development a:hover {
+    color: var(--light-blue);
 }

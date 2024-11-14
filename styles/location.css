@@ -39,6 +39,10 @@
 }
 
 @media (min-width: 1024px) {
+    #location {
+        padding: 150px;
+    }
+
     .maps-codeca {
         width: 60%;
         height: 60vh;
