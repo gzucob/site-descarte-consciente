@@ -7,6 +7,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: var(--light-grey); 
+    background-color: var(--light-grey); 
     padding: 0 20px;
     position: fixed;
     top: 0;
@@ -16,6 +17,11 @@
 }
 
 .navbar-logo a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: var(--black); 
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -55,12 +61,14 @@
 
 .navbar-links a {
     color: var(--blue); 
+    color: var(--blue); 
     text-decoration: none;
     font-size: 1rem;
     font-weight: bold;
 }
 
 .navbar-links a:hover {
+    color: var(--light-blue);
     color: var(--light-blue);
 }
 
