@@ -17,7 +17,7 @@
     padding-top: 15px;
     padding-bottom: 15px;
     color: var(--black);
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: left;
 }
 
@@ -38,7 +38,11 @@
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1440px) {
+    #location {
+        padding: 150px;
+    }
+
     .maps-codeca {
         width: 60%;
         height: 60vh;

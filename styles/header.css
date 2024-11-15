@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--light-grey); /* Certifique-se de definir uma cor */
+    background-color: var(--light-grey); 
     padding: 0 20px;
     position: fixed;
     top: 0;
@@ -16,10 +16,21 @@
 }
 
 .navbar-logo a {
-    color: var(--blue); /* Ajuste conforme necessário */
-    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: var(--black); 
     font-size: 1rem;
     font-weight: bold;
+    gap: 5px;
+}
+
+.navbar-logo img {
+    max-width: 10vw;
+    max-height: 7vh;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 .navbar-links {
@@ -43,14 +54,14 @@
 }
 
 .navbar-links a {
-    color: var(--blue); /* Ajuste conforme necessário */
+    color: var(--blue); 
     text-decoration: none;
     font-size: 1rem;
     font-weight: bold;
 }
 
 .navbar-links a:hover {
-    color: var(--light-blue); /* Ajuste conforme necessário */
+    color: var(--light-blue);
 }
 
 .navbar-toggle {

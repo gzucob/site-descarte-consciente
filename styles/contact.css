@@ -9,12 +9,14 @@
 }
 
 #contact h3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 #contact p {
     font-size: 1rem;
-    padding-top: 10px;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #contactForm {
@@ -44,16 +46,16 @@ textarea {
 
 input:focus + .placeholder-text,
 input:not(:placeholder-shown) + .placeholder-text {
-  visibility: hidden;
-  opacity: 0;
+    visibility: hidden;
+    opacity: 0;
 }
 
 input::placeholder,
 textarea::placeholder {
-  color: var(--grey);   /* Define a cor do placeholder */
-  font-size: 1rem;      /* Tamanho da fonte */
-  font-style: italic;   /* Estilo da fonte */
-  padding: 10px;
+    color: var(--grey);   /* Define a cor do placeholder */
+    font-size: 1rem;      /* Tamanho da fonte */
+    font-style: italic;   /* Estilo da fonte */
+    padding: 10px;
 }
 
 button {
@@ -93,7 +95,15 @@ button:hover {
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1440px) {
+    #contact {
+        padding: 150px;
+    }
+
+    #contactForm {
+        padding-bottom: 0px;
+    }
+
     input {
         width: 40%;
         height: 50px;
