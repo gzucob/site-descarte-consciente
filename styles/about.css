@@ -5,7 +5,7 @@
     align-items: center;
     position: relative;
     padding-top: calc(20vh - 8vh);
-    background: url('/assets/logo.webp') no-repeat center center/cover;
+    background: url('assets/logo.webp') no-repeat center center/cover;
     background-color: var(--background);
     height: 100vh;
     width: 100%;
