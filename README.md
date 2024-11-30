@@ -16,5 +16,3 @@ Apoiar as ODS 3 (Saúde e Bem-Estar) e 11 (Cidades e Comunidades Sustentáveis),
 
 ## Contribuições
 Colaborações são bem-vindas.
-
-[Visite o site](https://gzucob.github.io/site-descarte-consciente/)
